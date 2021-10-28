@@ -1,5 +1,5 @@
+#이코테 예제
 # 1이 될 때까지
-
 n,k = map(int,input().split())
 ans = 0
 while(n > 1):
