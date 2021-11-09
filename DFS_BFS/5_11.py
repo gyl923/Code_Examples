@@ -1,3 +1,5 @@
+#bfs 사용하며 탐색하며 조건에 맞는 다음칸 값 + 1
+
 from collections import deque
 import sys
 input = sys.stdin.readline
