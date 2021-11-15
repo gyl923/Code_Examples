@@ -6,7 +6,7 @@ arr = []
 for _  in range(int(input())):
     a,b = input().split()
     arr.append((a,b))
-arr.sort(key=lambda x: x[1])
+arr.sort(key=lambda x: x[1])    #lambda 활용
 for i in arr:
     print(i[0],end=' ')
     
