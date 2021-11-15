@@ -1,3 +1,4 @@
+# 위에서 아래로 (내림차순 정렬)
 import sys
 input = sys.stdin.readline
 
