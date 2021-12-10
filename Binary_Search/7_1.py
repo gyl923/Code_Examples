@@ -1,3 +1,4 @@
+# 일반적인 순차탐색 함수
 def sequential_search(n,target,arr):
     for i in range(n):
         if arr[i] == target:
