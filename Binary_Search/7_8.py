@@ -25,3 +25,22 @@ def bs(arr,start,end,target):
     return ans
 ans = bs(arr,0,max(arr),6)
 print(ans)
+
+# 2
+""" n, m = map(int, input().split())
+arr = sorted(map(int, input().split()))
+start = 0
+end = max(arr)
+ans = 0
+while start <= end:
+        mid = (start + end) // 2
+        cnt = 0
+        for i in arr:
+            if i > mid:
+                cnt += i-mid 
+        if cnt < m:
+            end = mid - 1
+        else:
+            ans = mid
+            start = mid + 1
+print(ans) """
