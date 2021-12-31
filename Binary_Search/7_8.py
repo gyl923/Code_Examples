@@ -3,6 +3,7 @@
 n개의 떡이 주어진다. n개의 떡 모두 일정길이h 만큼 자르고 남은 떡의 길이 합이 
 m보다 크거나 같도록 만드는 h를 구하는 문제
 '''
+
 # 1
 n, m = map(int, input().split())
 arr = sorted(map(int, input().split()))
